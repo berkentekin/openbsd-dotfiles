@@ -10,7 +10,7 @@ battery() {
 	BATP=$(apm -l)
 	BATC=$(apm -a)
 	echo -n $BATP
-	test "cat '$BATC'" -gt 0 && echo -n '+' || echo -n '-'
+	test $BATC -gt 0 && echo -n '+' || echo -n '-'
 }
 
 network() {
@@ -37,7 +37,8 @@ desktop() {
 while :; do
 	buf=""
 	buf="${buf} [$(desktop)]   --  "
-	buf="${buf} $(clock) -"
+	buf="${buf} %{r}$(battery)"
+	buf="${buf} %{c}$(clock)"
 	#buf="${buf} NET: $(network) -"
 	#buf="${buf} CPU: $(cpuload)%% -"
 	#buf="${buf} RAM: $(memused)%% -"
