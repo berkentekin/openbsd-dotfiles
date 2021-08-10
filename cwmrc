@@ -115,6 +115,8 @@ bind-key 4-period menu-ssh
 bind-key 4S-r restart
 # mod + shift + E = log out
 bind-key 4S-e quit
+# mod + shift + S = shutdown
+bind-key 4S-s 'shutdown -p now'
 
 # unbind default mouse actions
 unbind-mouse M-1

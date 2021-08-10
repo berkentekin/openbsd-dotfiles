@@ -1,7 +1,7 @@
 Tmux Extra
 ==========
 
-A few extra files useful to get sane Tmux default behavior (or what a person coming from Screen might consider sane at any rate). Changes are described in more detail in my article [Practical Tmux](http://mutelight.org/articles/practical-tmux).
+A few extra files useful to get sane Tmux default behavior (or what a person coming from Screen might consider sane at any rate). Changes are described in more detail in Brandur's article [Practical Tmux](http://mutelight.org/articles/practical-tmux).
 
 Installation
 ------------
