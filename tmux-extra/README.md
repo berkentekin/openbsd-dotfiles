@@ -8,9 +8,9 @@ Installation
 
 Included files:
 
-* `.tmux.conf`: Tmux configuration file. Symlink to your home directory like `ln -s /home/brandur/tmux-extra/.tmux.conf /home/brandur/`.
+* `.tmux.conf`: Tmux configuration file. Symlink to your home directory like `ln -s /home/excelbsd/.cfg/tmux-extra/.tmux.conf /home/excelbsd/`.
 
-* `tmx`: A Tmux launcher script mostly useful for getting sessions that share the same set of windows, but can move between them independently. Symlink to a directory in your `$PATH` like `ln -s /home/brandur/tmux-extra/tmx /home/brandur/bin/`.
+* `tmx`: A Tmux launcher script mostly useful for getting sessions that share the same set of windows, but can move between them independently. Symlink to a directory in your `$PATH` like `ln -s /home/excelbsd/.cfg/tmux-extra/tmx /usr/local/bin/`.
 
 Usage
 -----
